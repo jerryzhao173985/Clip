@@ -36,7 +36,7 @@ class AudioEngine: NSObject
     private let player: AVAudioPlayerNode
     private var audioFile: AVAudioFile!
     
-    private let queue = DispatchQueue(label: "com.rileytestut.Clip.AudioEngine")
+    private let queue = DispatchQueue(label: "com.jerryzhao.Clip.AudioEngine")
     
     override init()
     {

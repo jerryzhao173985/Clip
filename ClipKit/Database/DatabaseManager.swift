@@ -58,7 +58,7 @@ public class DatabaseManager
     public private(set) var isStarted = false
     
     private var prepareCompletionHandlers = [(Result<Void, Error>) -> Void]()
-    private let dispatchQueue = DispatchQueue(label: "com.rileytestut.Clip.DatabaseManager")
+    private let dispatchQueue = DispatchQueue(label: "com.jerryzhao.Clip.DatabaseManager")
     
     private var previousHistoryToken: NSPersistentHistoryToken? {
         set {

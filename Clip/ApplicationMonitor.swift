@@ -12,13 +12,13 @@ import UserNotifications
 
 private enum UserNotification: String
 {
-    case appStoppedRunning = "com.rileytestut.Clip.AppStoppedRunning"
+    case appStoppedRunning = "com.jerryzhao.Clip.AppStoppedRunning"
 }
 
 private extension CFNotificationName
 {
-    static let altstoreRequestAppState: CFNotificationName = CFNotificationName("com.altstore.RequestAppState.com.rileytestut.Clip" as CFString)
-    static let altstoreAppIsRunning: CFNotificationName = CFNotificationName("com.altstore.AppState.Running.com.rileytestut.Clip" as CFString)
+    static let altstoreRequestAppState: CFNotificationName = CFNotificationName("com.altstore.RequestAppState.com.jerryzhao.Clip" as CFString)
+    static let altstoreAppIsRunning: CFNotificationName = CFNotificationName("com.altstore.AppState.Running.com.jerryzhao.Clip" as CFString)
 }
 
 private let ReceivedApplicationState: @convention(c) (CFNotificationCenter?, UnsafeMutableRawPointer?, CFNotificationName?, UnsafeRawPointer?, CFDictionary?) -> Void =
@@ -142,7 +142,7 @@ private extension ApplicationMonitor
             #endif
             
             // Begin background task to reduce chance of us being terminated while audio session is interrupted.
-            self.backgroundTaskID = UIApplication.shared.beginBackgroundTask(withName: "com.rileytestut.Clip.delayTermination") {
+            self.backgroundTaskID = UIApplication.shared.beginBackgroundTask(withName: "com.jerryzhao.Clip.delayTermination") {
                 guard let backgroundTaskID = self.backgroundTaskID else { return }
                 UIApplication.shared.endBackgroundTask(backgroundTaskID)
             }

@@ -4,7 +4,7 @@
 <dict>
 	<key>ALTAppGroups</key>
 	<array>
-		<string>group.com.rileytestut.Clip</string>
+		<string>group.com.jerryzhao.Clip</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
@@ -33,7 +33,7 @@
 			<key>UNNotificationExtensionDefaultContentHidden</key>
 			<true/>
 			<key>UNNotificationExtensionInitialContentSizeRatio</key>
-			<real>0.14999999999999999</real>
+			<real>0.15</real>
 		</dict>
 		<key>NSExtensionMainStoryboard</key>
 		<string>MainInterface</string>

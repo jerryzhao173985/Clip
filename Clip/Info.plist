@@ -4,7 +4,7 @@
 <dict>
 	<key>ALTAppGroups</key>
 	<array>
-		<string>group.com.rileytestut.Clip</string>
+		<string>group.com.jerryzhao.Clip</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
@@ -40,7 +40,7 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Clip requires "Always" location permission to run in the background indefinitely and monitor your clipboard. Your location data is never saved.</string>
+	<string>Clip requires &quot;Always&quot; location permission to run in the background indefinitely and monitor your clipboard. Your location data is never saved.</string>
 	<key>NSLocationDefaultAccuracyReduced</key>
 	<true/>
 	<key>NSLocationWhenInUseUsageDescription</key>
@@ -107,7 +107,7 @@
 			<key>UTTypeIconFiles</key>
 			<array/>
 			<key>UTTypeIdentifier</key>
-			<string>com.rileytestut.Clip.Clipping</string>
+			<string>com.jerryzhao.Clip.Clipping</string>
 		</dict>
 	</array>
 </dict>
